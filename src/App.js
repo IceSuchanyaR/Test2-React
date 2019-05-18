@@ -19,7 +19,7 @@ componentDidMount() {
         .then(results => {
             return results.json();
         }).then(data => {
-            let carList = data.results.map((item) => {
+            let carList = data.results.mgap((item) => {
                 return (
                     <div key={item.results}>
                     </div>
